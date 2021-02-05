@@ -9,7 +9,7 @@ namespace GameProjectDemo.Entities
         public int Id { get; set; }
         public string Name { get; set; }
         public string Description { get; set; }
-        public int RateOfDiscount { get; set; }
+        public double RateOfDiscount { get; set; }
 
     }
 }
