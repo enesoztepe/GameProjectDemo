@@ -9,7 +9,7 @@ namespace GameProjectDemo
         static void Main(string[] args)
         {
             GameManager gameManager = new GameManager();
-            GamerManager gamerManager = new GamerManager();
+            GamerManager gamerManager = new GamerManager(new UserValidationManager());
             gamerManager.Add(new Gamer
             {
                 Id = 1,

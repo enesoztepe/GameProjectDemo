@@ -8,6 +8,7 @@ namespace GameProjectDemo.Concrete
 {
     public class GameManager : IGameService
     {
+
         public void GameBuying(Gamer gamer, Game game)
         {
             Console.WriteLine(gamer.FirstName + " adlı kullanıcı " + game.Name + " adlı oyunu " + game.Price + " TL ye almıştır.");

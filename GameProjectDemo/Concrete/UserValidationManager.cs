@@ -10,7 +10,7 @@ namespace GameProjectDemo.Concrete
     {
         public bool Validate(Gamer gamer)
         {
-            if (gamer.DateOfBirth.Year == 2000 && gamer.NationalityId == "11111111111" && 
+            if (gamer.DateOfBirth.Year == 2000 && gamer.NationalityId == "12345678910" && 
                 gamer.FirstName == "Enes" && gamer.LastName == "ÖZTEPE")
             {
                 return true;
